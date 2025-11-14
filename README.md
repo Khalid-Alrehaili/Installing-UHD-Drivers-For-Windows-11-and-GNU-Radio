@@ -3,33 +3,42 @@ This is a guide for installing USRPs' Drivers (UHD) in Windows 11 and making the
 
 ## First, Installing Python:
 Go to Microsoft Store
+
 ![](<Images/Python (1).png>)
 
 Go to the latest version of Python.
+
 ![](<Images/Python (2).png>)
 
 Install
+
 ![](<Images/Python (3).png>)
 
 Open Command Line (CMD) and check if python is found
+
 ![](<Images/Python (6).png>)
 
 Install "Requests" library which is required by UHD drivers.
+
 ![](<Images/Python (7).png>)
 
 The First Step is done, congrats :)
 
 ## Installing UHD Drivers
 Go to the following link [https://files.ettus.com/binaries/uhd/latest_release/](https://files.ettus.com/binaries/uhd/latest_release/)
+
 ![](Images/UHD1.png)
 
 Enter Windows 11 Folder and Download Drivers
+
 ![](Images/UHD2.png)
 
 Open EXE Installer
+
 ![](Images/UHD3.png)
 
 Follow the installation procedure
+
 ![](Images/UHD4.png)
 ![](Images/UHD5.png)
 ![](Images/UHD6.png)
@@ -44,6 +53,7 @@ And, You have finished installing the UHD Drivers required by USRPs.
 due to some problem with GNU Radio, it wont download the UHD Images automaticlly, so the following is a guide to download them by running a simple python script
 
 First, Run Command Line (CMD) in Adminstrator Mode:
+
 ![](Images/UHD-Images1.png)
 
 Go to the GNU Radio UHD files directory using the following command
@@ -62,6 +72,7 @@ python uhd_images_downloader.py
 
 
 If everything worked, the following output should be displayed:
+
 ![](Images/UHD-Images5.png)
 
 IT could be downloaded already, so you may see something like the following:
