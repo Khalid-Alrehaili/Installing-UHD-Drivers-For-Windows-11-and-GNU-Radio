@@ -72,6 +72,8 @@ cd C:\Users\%USERNAME%\radioconda\Library\lib\uhd\utils
 ```
 This should work if you have GNU Radio installed and its in the default place and your windows default drive is the C drive.
 
+If GNU Radio is installed somewhere else, just navigate to it using the change directory command "cd" and continue steps.
+
 ![](Images/UHD-Images2.png)
 
 Run the following Command to start the uhd_images_downloader.py
@@ -85,7 +87,7 @@ If everything worked, the following output should be displayed:
 
 ![](Images/UHD-Images5.png)
 
-IT could be downloaded already, so you may see something like the following:
+In some cases, uhd images may already be downloaded which is fine, and the output for this case as follows:
 ``` console
 C:\Users\%USERNAME%\radioconda\Library\lib\uhd\utils>python uhd_images_downloader.py
 [INFO] Using base URL: https://files.ettus.com/binaries/cache/
@@ -118,4 +120,6 @@ C:\Users\%USERNAME%\radioconda\Library\lib\uhd\utils>python uhd_images_downloade
 [INFO] Target usb_common_windrv_default is up to date.
 ```
 
-You are Done :), Enjoy Learning !
+You are Done :), Enjoy Learning!
+
+
