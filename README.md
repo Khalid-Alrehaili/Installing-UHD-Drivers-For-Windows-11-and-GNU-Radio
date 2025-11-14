@@ -31,6 +31,7 @@ Install "Requests" library which is required by UHD drivers.
 The First Step is done, congrats :)
 
 <a name="uhd"/>
+
 ## Installing UHD Drivers
 Go to the following link [https://files.ettus.com/binaries/uhd/latest_release/](https://files.ettus.com/binaries/uhd/latest_release/)
 
@@ -57,6 +58,7 @@ Follow the installation procedure
 And, You have finished installing the UHD Drivers required by USRPs.
 
 <a name="uhd-images"/>
+
 ## (Additonal): Installing UHD Images for GNU Radio
 due to some problem with GNU Radio, it wont download the UHD Images automaticlly, so the following is a guide to download them by running a simple python script
 
