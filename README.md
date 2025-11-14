@@ -1,9 +1,15 @@
 # Installing UHD Drivers For Windows 11 and GNU-Radio
 This is a guide for installing USRPs' Drivers (UHD) in Windows 11 and making them work GNU Radio
 
+## Table of Contents
+1. [Python Installation](#python)
+2. [UHD Drivers Installation](#uhd)
+3. [UHD Imagews for GNU Radio](#uhd-images)
+
+<a name="python"/>
+
 ## First, Installing Python:
 Go to Microsoft Store
-
 ![](<Images/Python (1).png>)
 
 Go to the latest version of Python.
@@ -24,6 +30,7 @@ Install "Requests" library which is required by UHD drivers.
 
 The First Step is done, congrats :)
 
+<a name="uhd"/>
 ## Installing UHD Drivers
 Go to the following link [https://files.ettus.com/binaries/uhd/latest_release/](https://files.ettus.com/binaries/uhd/latest_release/)
 
@@ -49,6 +56,7 @@ Follow the installation procedure
 
 And, You have finished installing the UHD Drivers required by USRPs.
 
+<a name="uhd-images"/>
 ## (Additonal): Installing UHD Images for GNU Radio
 due to some problem with GNU Radio, it wont download the UHD Images automaticlly, so the following is a guide to download them by running a simple python script
 
